@@ -4,6 +4,9 @@ header {
 
 html {
   background-color: #fff;
+  margin: 0;
+  font-family: "roboto",sans-serif;
+
 
 
 }
@@ -12,15 +15,52 @@ html {
   font-family: "roboto",sans-serif;
 }
 
+h1 {
+  margin-top: 10px;
+  font-family: "roboto",sans-serif;
+
+}
+
 h2 {
 font-weight: 700;
 }
 
 h3 {
+  font-family: "roboto",sans-serif;
+  font-weight: normal;
 
+
+}
+
+h4 {
+  font-family: "roboto",sans-serif;
+  border-bottom: 2px solid #000;
+
+}
+
+h {
+  margin-left: 5em;
 }
 .nav {
   text-decoration: none;
   color: #fff;
+
+}
+
+footer {
+  background-color: #6BA2BA;
+  color: #fff;
+
+}
+
+@media only screen and (min-width: 38em) {
+
+.vertical-line {
+    border-left: 2px solid #fff;
+    height: 9em;
+    margin-top: 1em;
+    display: block;
+    padding-left: 2em;
+  }
 
 }
