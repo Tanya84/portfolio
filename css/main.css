@@ -34,13 +34,13 @@ h3 {
 
 h4 {
   font-family: "roboto",sans-serif;
-  border-bottom: 2px solid #000;
+  border-bottom: 4px solid #6BA2BA;
+  width: 60%;
+  color: #6BA2BA;
 
 }
 
-h {
-  margin-left: 5em;
-}
+
 .nav {
   text-decoration: none;
   color: #fff;
@@ -57,10 +57,20 @@ footer {
 
 .vertical-line {
     border-left: 2px solid #fff;
-    height: 9em;
+    height: 12em;
     margin-top: 1em;
     display: block;
     padding-left: 2em;
   }
 
+nav li {
+  float: right;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
+  nav li {
+    float: right;
+  }
 }
