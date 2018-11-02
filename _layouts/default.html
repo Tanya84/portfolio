@@ -15,15 +15,15 @@
 
   <header class={{sitebaseurl}}>
 
-    <div class="grid grid-middle text-center icon i-64">
+    <div class="gutter grid grid-middle text-center icon i-256">
 
-      <img class="logo" src="images/logo.svg" alt="">
+      <img class="logo" src="{{site.baseurl}}/images/my-logo.svg" alt="">
     </div>
     <div>
     <nav class="nav">
       <ul class="pad-t text-center push-0 list-group-inline">
         <li class="island-1-8">
-          <a href="{{site.baseurl}}/"class="nav block gutter-1-2 pad-t-1-4 pad-b-1-4 terra" href="#">Work</a>
+          <a href="{{site.baseurl}}/"class="nav block gutter-1-2 pad-t-1-4 pad-b-1-4 terra" href="work.html">Work</a>
         </li>
         <li class="island-1-8">
           <a href="{{site.baseurl}}/"class="nav block gutter-1-2 pad-t-1-4 pad-b-1-4 terra" href="#">About</a>
@@ -53,18 +53,15 @@
 
     <div class="unit xs-1 s-1 m-1-2 l-1-2 vertical-line">
       <h6 class="kilo bold text-upper">FOLLOW ME</h6>
-        <ul class="social-icons list-group-inline">
-          <li>
-            <a href="#">
-              <i class="icon i-18"></i>
+        <div class="social-icons list-group-inline">
+            <a class="icon i-18" href="#">
+
+              <svg><use xlink:href="{{site.baseurl}}/images/social-icons.svg#twitter"></use></svg>
+
+
+
             </a>
-          </li>
-          <li>
-            <a href="#">
-              <i class="icon i-18 gutter"></i>
-            </a>
-          </li>
-        </ul>
+
     </div>
   </div>
 </footer>
