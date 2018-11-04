@@ -1,5 +1,13 @@
 header {
   background-color: #6BA2BA;
+  position: fixed;
+  top: 0;
+  leff: 0;
+  width: 100%;
+}
+
+.banner {
+  margin-top: 12em;
 }
 
 html {
