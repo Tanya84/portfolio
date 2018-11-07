@@ -8,16 +8,16 @@
   <link href="{{site.baseurl}}/css/grid.css" rel="stylesheet">
   <link href="{{site.baseurl}}/css/type.css" rel="stylesheet">
   <link href="{{site.baseurl}}/css/main.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,700,bold" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,700,900,bold" rel="stylesheet">
 </head>
 <body>
 
   <header class={{sitebaseurl}}>
 
-    <div class="gutter grid grid-middle text-center icon i-256">
+    <div class="gutter grid grid-middle text-center">
 
-      <img class="logo" src="{{site.baseurl}}/images/my-logo.svg" alt="">
+
+      <img class="logo pad-t" src="{{site.baseurl}}/images/my-logo.svg" alt="">
     </div>
     <div>
     <nav class="nav">
@@ -42,7 +42,8 @@
   {{content}}
 
 </main>
-<footer class="{{site.baseurl}} pad-t-2">
+
+<footer class="{{site.baseurl}} footer pad-t-2">
   <div class="grid max-width micro gutter">
     <div class="unit xs-1 s-1 m-1-2 l-1-2  push">
       <h1 class="kilo bold text-upper push-1-2">Tanya Andrews</h1>
@@ -52,15 +53,26 @@
     </div>
 
     <div class="unit xs-1 s-1 m-1-2 l-1-2 vertical-line">
-      <h6 class="kilo bold text-upper">FOLLOW ME</h6>
-        <div class="social-icons list-group-inline">
-            <a class="icon i-18" href="#">
+      <h6 class="kilo bold push text-upper">FOLLOW ME</h6>
+        <div class="social-icons">
+          <ul class="list-group-inline">
+            <li>
+              <a class="icon i-96" href="https://www.facebook.com/Tanny.Designs/">
+                <svg class="fb"><use xlink:href="{{site.baseurl}}/images/social-icons.svg#facebook"></use></svg>
+              </a>
+            </li>
+            <li>
+              <a class="icon i-96" href="https://twitter.com/">
+                <svg><use xlink:href="{{site.baseurl}}/images/social-icons.svg#twitter"></use></svg>
+              </a>
+            </li>
+            <li>
+              <a class="icon i-96" href="https://www.instagram.com/lil_luna2/">
+                <svg><use xlink:href="{{site.baseurl}}/images/social-icons.svg#instagram"></use></svg>
+              </a>
+            </li>
+          </ul>
 
-              <svg><use xlink:href="{{site.baseurl}}/images/social-icons.svg#twitter"></use></svg>
-
-
-
-            </a>
 
     </div>
   </div>

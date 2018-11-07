@@ -1,3 +1,10 @@
+
+html {
+  background-color: #fff;
+  margin: 0;
+  font-family: "roboto",sans-serif;
+}
+
 header {
   background-color: #6BA2BA;
   position: fixed;
@@ -10,27 +17,27 @@ header {
   margin-top: 12em;
 }
 
-html {
-  background-color: #fff;
-  margin: 0;
-  font-family: "roboto",sans-serif;
-
-
-
+.something {
+  margin-top: 12em;
+  margin-left: 30px;
 }
 
-.tanya {
-  font-family: "roboto",sans-serif;
+section {
+  margin-left: 30px;
 }
+
 
 h1 {
   margin-top: 10px;
   font-family: "roboto",sans-serif;
+  font-weight: 900;
+
 
 }
 
 h2 {
-font-weight: 700;
+  font-family: "roboto",sans-serif;
+  font-weight: bold;
 }
 
 h3 {
@@ -60,6 +67,11 @@ footer {
   color: #fff;
 
 }
+
+svg {
+  color: #fff;
+}
+
 
 @media only screen and (min-width: 38em) {
 
