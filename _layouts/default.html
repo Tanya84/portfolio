@@ -8,35 +8,32 @@
   <link href="{{site.baseurl}}/css/grid.css" rel="stylesheet">
   <link href="{{site.baseurl}}/css/type.css" rel="stylesheet">
   <link href="{{site.baseurl}}/css/main.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,700,900,bold" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Kanit:100,100i,200,200i,300,300i,400,400i,500,500i" rel="stylesheet">
 </head>
 <body>
 
   <header class={{sitebaseurl}}>
-
-    <div class="gutter grid grid-middle text-center">
-
-
-      <img class="logo pad-t" src="{{site.baseurl}}/images/my-logo.svg" alt="">
+    <div>
+      <a href="{{site.baseurl}}/"><img class="my-logo" src="{{site.baseurl}}/images/tanya-logo.svg" alt=""></a>
     </div>
     <div>
-    <nav class="nav">
-      <ul class="pad-t text-center push-0 list-group-inline">
+    <nav class="nav gutter">
+      <ul class="text-center push-0 list-group-inline">
         <li class="island-1-8">
           <a class="nav block gutter-1-2 pad-t-1-4 pad-b-1-4 terra" href="{{site.baseurl}}/work">Work</a>
         </li>
         <li class="island-1-8">
-          <a href="{{site.baseurl}}/"class="nav block gutter-1-2 pad-t-1-4 pad-b-1-4 terra" href="#">About</a>
+          <a href="{{site.baseurl}}/#about-me"class="nav block gutter-1-2 pad-t-1-4 pad-b-1-4 terra">About</a>
         </li>
         <li class="island-1-8">
-          <a href="{{site.baseurl}}/" class="nav block gutter-1-2 pad-t-1-4 pad-b-1-4 terra" href="#">Home</a>
+          <a href="{{site.baseurl}}/" class="nav block gutter-1-2 pad-t-1-4 pad-b-1-4 terra" href>Home</a>
         </li>
       </ul>
     </nav>
   </div>
   </header>
 
-<main class="push">
+<main class="push-2">
 
 
   {{content}}
@@ -63,12 +60,12 @@
             </li>
             <li>
               <a class="icon i-96" href="https://twitter.com/">
-                <svg><use xlink:href="{{site.baseurl}}/images/social-icons.svg#twitter"></use></svg>
+                <svg class="twitter"><use xlink:href="{{site.baseurl}}/images/social-icons.svg#twitter"></use></svg>
               </a>
             </li>
             <li>
               <a class="icon i-96" href="https://www.instagram.com/lil_luna2/">
-                <svg><use xlink:href="{{site.baseurl}}/images/social-icons.svg#instagram"></use></svg>
+                <svg class="instagram"><use xlink:href="{{site.baseurl}}/images/social-icons.svg#instagram"></use></svg>
               </a>
             </li>
           </ul>
