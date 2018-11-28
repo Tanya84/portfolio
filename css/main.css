@@ -45,8 +45,7 @@ a:hover {
 
 
 .iso-decription{
-  background-color: #003366;
-  color: #fff;
+  color: #000;
   padding-top: 10em;
   padding-bottom: 10em;
 }
@@ -70,20 +69,28 @@ h3 {
   color: #fff;
 
 
-
 }
 
 h4 {
   border-bottom: 4px solid #003366;
-  width: 111%;
+  border: width: 105%;
   color: #003366;
   font-size: 50px;
 
 }
 
-.sketches {
-
+h5 {
+  color: #000;
 }
+
+.apple {
+  height: 20em;
+  width: 20em;
+  margin-left: 5em;
+}
+
+
+
 
 
 .nav {
@@ -112,9 +119,17 @@ footer {
 
 
 
-.card {
+.me {
+  height: 30em;
+  width: 18em;
 
 }
+
+.about {
+  border-top: 4px solid #003366;
+  margin: 5em;
+}
+
 
 .card-hover {
   background-color: rgba(0, 51, 102, 0.8);
