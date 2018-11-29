@@ -1,6 +1,6 @@
 # Tanya D Andrews
 
-### [ tanyad.work ] (https://tanyad.work)
+### [ tanyadesigns.ca ] (https://tanyadesigns.ca)
 
 - **[tanya.d.andrews84@gmail.com](mailto:tanya.d.andrews84@gmail.com)**
 

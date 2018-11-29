@@ -150,7 +150,7 @@ footer {
   height:20px;
   background-color: red;
   z-index: 10000;
-  top: -12em;
+  top: -10em;
   opacity: 0;
 }
 
