@@ -84,9 +84,7 @@ h5 {
 }
 
 .apple {
-  height: 20em;
-  width: 20em;
-  margin-left: 5em;
+
 }
 
 
@@ -119,15 +117,10 @@ footer {
 
 
 
-.me {
-  height: 30em;
-  width: 18em;
 
-}
 
 .about {
   border-top: 4px solid #003366;
-  margin: 5em;
 }
 
 
