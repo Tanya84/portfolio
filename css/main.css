@@ -62,6 +62,10 @@ a:hover {
   color: #fff;
 }
 
+.digital-paintings {
+  color: #fff;
+}
+
 
 h1 {
   margin-top: 10px;
@@ -129,7 +133,6 @@ footer {
 
 
 .about {
-  border-top: 4px solid #003366;
 }
 
 
