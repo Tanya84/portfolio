@@ -45,8 +45,7 @@ a:hover {
 
 .iso-decription{
   color: #000;
-  padding-top: 10em;
-  padding-bottom: 10em;
+
 }
 
 .isometrics {
@@ -126,6 +125,8 @@ footer {
 
 .me {
   width: 70%;
+  margin: 0 auto;
+
 }
 
 
