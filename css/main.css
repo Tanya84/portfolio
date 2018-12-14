@@ -35,7 +35,7 @@ a:hover {
 }
 
 .margin {
-  margin-top: 12em;
+  margin-top: 8em;
 }
 
 
@@ -48,6 +48,18 @@ a:hover {
   color: #000;
   padding-top: 10em;
   padding-bottom: 10em;
+}
+
+.isometrics {
+  color: #fff;
+}
+
+.branding {
+  color: #fff;
+}
+
+.parallax {
+  color: #fff;
 }
 
 
@@ -82,12 +94,6 @@ h4 {
 h5 {
   color: #000;
 }
-
-.apple {
-
-}
-
-
 
 
 
@@ -154,6 +160,15 @@ footer {
   margin-top: 8em;
 }
 
+.error {
+  margin-top: 10em;
+
+}
+
+.error-penguin {
+  width: 500px;
+  margin: 0 auto;
+}
 
 
 
